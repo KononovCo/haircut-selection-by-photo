@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Screen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/screen</item>
+    </style>
+
+    <style name="BaseView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="TextView" parent="BaseView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ImageView" parent="BaseView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="ContainerView" parent="BaseView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="cardBackgroundColor">@color/black</item>
+    </style>
+
+    <style name="Button" parent="BaseView">
+        <item name="android:width">250dp</item>
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/black</item>
+    </style>
+</resources>

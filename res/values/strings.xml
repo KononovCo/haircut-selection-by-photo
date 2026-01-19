@@ -1,0 +1,42 @@
+<resources>
+    <string name="ru" translatable="false">Русский</string>
+    <string name="en" translatable="false">English</string>
+    <string name="company" translatable="false">KononovCo</string>
+
+    <string name="app">Haircut Selection By Photo</string>
+
+    <string name="start">Start</string>
+    <string name="result">Your result</string>
+
+    <string name="positive">OK</string>
+    <string name="negative">Cancel</string>
+
+    <string name="short_hair">Short hair</string>
+    <string name="medium_hair">Medium hair</string>
+    <string name="long_hair">Long hair</string>
+
+    <string name="lang">Language</string>
+    <string name="save">Save to gallery</string>
+
+    <string name="upload">Upload photo</string>
+    <string name="camera">Upload from camera</string>
+    <string name="gallery">Upload from gallery</string>
+
+    <string name="confirm_loading_result">Save result to gallery?</string>
+    <string name="success_loading_photo">Photo successfully uploaded</string>
+    <string name="success_loading_result">Result saved to gallery</string>
+
+    <string name="photo_error">You have not uploaded a photo</string>
+    <string name="format_error">Photo must be vertical\n(height greater than width)</string>
+    <string name="size_error">The height cannot exceed 3000px, and the width must not be less than 50px</string>
+    <string name="extension_error">File extension must be PNG or JPG</string>
+
+    <string name="photo_requirements">
+        Photo requirements:\n\n\n
+
+        1. Upload available from camera and gallery\n\n
+        2. Photo must be vertical\n(height greater than width)\n\n
+        3. The height cannot exceed 3000px, and the width must not be less than 50px\n\n
+        4. File extension must be PNG or JPG
+    </string>
+</resources>
