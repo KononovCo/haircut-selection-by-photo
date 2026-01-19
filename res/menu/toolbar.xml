@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camera_item"
+        android:icon="@drawable/camera"
+        android:title="@string/camera"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/gallery_item"
+        android:icon="@drawable/gallery"
+        android:title="@string/gallery"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/save_item"
+        android:icon="@drawable/save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lang_item"
+        android:icon="@drawable/lang"
+        android:title="@string/lang"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/ru_item"
+                android:title="@string/ru" />
+
+            <item
+                android:id="@+id/en_item"
+                android:title="@string/en" />
+        </menu>
+    </item>
+</menu>
