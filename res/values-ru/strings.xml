@@ -1,0 +1,38 @@
+<resources>
+    <string name="app">Подбор стрижек по фото</string>
+
+    <string name="start">Начать</string>
+    <string name="result">Ваш результат</string>
+
+    <string name="positive">OK</string>
+    <string name="negative">Отмена</string>
+
+    <string name="short_hair">Короткие волосы</string>
+    <string name="medium_hair">Средние волосы</string>
+    <string name="long_hair">Длинные волосы</string>
+
+    <string name="lang">Язык</string>
+    <string name="save">Сохранить в галерею</string>
+
+    <string name="upload">Загрузить фото</string>
+    <string name="camera">Загрузить из камеры</string>
+    <string name="gallery">Загрузить из галереи</string>
+
+    <string name="confirm_loading_result">Сохранить результат в галерею?</string>
+    <string name="success_loading_photo">Фото успешно загружено</string>
+    <string name="success_loading_result">Результат сохранен в галерею</string>
+
+    <string name="photo_error">Вы не загрузили фото</string>
+    <string name="format_error">Фото должно быть вертикальным\n(высота больше ширины)</string>
+    <string name="size_error">Высота не может превышать 3000px, а ширина не меньше 50px</string>
+    <string name="extension_error">Расширение файла должно быть PNG или JPG</string>
+
+    <string name="photo_requirements">
+        Требования к фото:\n\n\n
+
+        1. Загрузка доступна из камеры и галереи\n\n
+        2. Фото должно быть вертикальным\n(высота больше ширины)\n\n
+        3. Высота не может превышать 3000px, а ширина не меньше 50px\n\n
+        4. Расширение файла должно быть PNG или JPG
+    </string>
+</resources>
