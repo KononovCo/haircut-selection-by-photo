@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Screen"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        style="@style/TextView"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="@string/app" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:layout_gravity="center"
+        android:src="@drawable/example"
+        android:contentDescription="@string/app" />
+
+    <Button
+        style="@style/Button"
+        android:layout_gravity="bottom|center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/start" />
+
+</FrameLayout>
